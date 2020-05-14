@@ -14,6 +14,14 @@ python3 -m pip install --upgrade pip --user
 
 # 2) Install something like pylint
 python3 -m pip install pylint --user
+
+## Running python CLI
+
+# 1) python 2
+python
+
+# 2) python 3
+python 3
 ```
 
 ## VS code settings
