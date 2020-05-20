@@ -1,12 +1,12 @@
 # Python Notes
 
 0. [Python Environment Setup](https://github.com/ssaquif/python-notebook/blob/master/setup-instructions.md)
-1. [Basics](#)
-   1. [Primitives](#)
-   2. [Falsy Values](#)
-   3. [JS typeof Equivalent](#)
-   4. [Comparison Operators](#)
-   5. [Interesting Case(s)](#)
+1. [Basics](https://github.com/SSaquif/python-notebook/blob/master/1-basics.py)
+   1. [Primitives](https://github.com/SSaquif/python-notebook/blob/master/1-basics.py#L1)
+   2. [Falsy Values](https://github.com/SSaquif/python-notebook/blob/master/1-basics.py#L6)
+   3. [JS typeof Equivalent](https://github.com/SSaquif/python-notebook/blob/master/1-basics.py#L11)
+   4. [Comparison Operators](https://github.com/SSaquif/python-notebook/blob/master/1-basics.py#L14)
+   5. [Interesting Case(s)](https://github.com/SSaquif/python-notebook/blob/master/1-basics.py#L17)
 2. [Strings](#)
    1. [String Multiplication](#)
    2. [Valid String Quotations](#)
