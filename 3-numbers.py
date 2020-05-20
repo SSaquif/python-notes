@@ -1,16 +1,17 @@
 import math
 
-# Basics
+# Different kinds of Numbers in Python
 x = 1
 x += 3
 y = 1.1
 z = (1 + 2j)*4  # complex number
 print(x, y, z)
 
-print(10 / 3)
-print(10 // 3)  # whole number
-print(10 % 3)  # modulus/remainder
-print(2 ** 4)  # power
+# Mathematical Operators (see Integer Division and Power)
+print(10 / 3)   # division
+print(10 // 3)  # integer division whole number
+print(10 % 3)   # modulus/remainder
+print(2 ** 4)   # power
 
 # Useful Built-In Functions
 print(abs(-9.2))
@@ -33,4 +34,3 @@ print(type(floatA))
 
 b = intA + 1
 print(b)
-
