@@ -23,10 +23,10 @@
 
 3. [Numbers](https://github.com/SSaquif/python-notebook/blob/master/3-numbers.py)
 
-   1. [Different kinds of Numbers in Python](#)
-   2. [Mathematical Operators (see Integer Division and Power)](https://github.com/SSaquif/python-notebook/blob/master/3-numbers.py#L3)
-   3. [Useful Built-In Functions](https://github.com/SSaquif/python-notebook/blob/master/3-numbers.py#L10)
-   4. [Useful Functions from Math Module](https://github.com/SSaquif/python-notebook/blob/master/3-numbers.py#L16)
+   1. [Different kinds of Numbers in Python](https://github.com/SSaquif/python-notebook/blob/master/3-numbers.py#L3)
+   2. [Mathematical Operators (see Integer Division and Power)](https://github.com/SSaquif/python-notebook/blob/master/3-numbers.py#L10)
+   3. [Useful Built-In Functions](https://github.com/SSaquif/python-notebook/blob/master/3-numbers.py#L16)
+   4. [Useful Functions from Math Module](https://github.com/SSaquif/python-notebook/blob/master/3-numbers.py#L22)
    5. [Type Conversion](https://github.com/SSaquif/python-notebook/blob/master/3-numbers.py#L27)
 
 4. [Control-Flow](https://github.com/SSaquif/python-notebook/blob/master/4-control-flow.py)
