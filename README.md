@@ -40,11 +40,13 @@
    7. [While Loops](https://github.com/SSaquif/python-notebook/blob/master/4-control-flow.py#L55)
    8. [Infinite Loops](https://github.com/SSaquif/python-notebook/blob/master/4-control-flow.py#L64)
 
-5. [Functions](#)
+5. [Functions](https://github.com/SSaquif/python-notebook/blob/master/5-functions.py)
 
-6. [Data Structures](#)
-
-7. [Classes](#)
-
-8. References
-   1. [Code with Mosh Python Course](https://codewithmosh.com/p/python-programming-course-beginners)
+   1. [Basic Skeleton](https://github.com/SSaquif/python-notebook/blob/master/5-functions.py#L1)
+   2. [With Non-Optional Parameters](https://github.com/SSaquif/python-notebook/blob/master/5-functions.py#L9)
+   3. [\*\*Returning None (like undefined)](https://github.com/SSaquif/python-notebook/blob/master/5-functions.py#L17)
+   4. [Keywords Arguments](https://github.com/SSaquif/python-notebook/blob/master/5-functions.py#L23)
+   5. [Optional/Default Parameters](https://github.com/SSaquif/python-notebook/blob/master/5-functions.py#L33)
+   6. [Rest Parameter \*: Tuple](https://github.com/SSaquif/python-notebook/blob/master/5-functions.py#L44)
+   7. [Rest Parameter \*\*: Dictionary](https://github.com/SSaquif/python-notebook/blob/master/5-functions.py#L58)
+   8. [Scope and Closure](https://github.com/SSaquif/python-notebook/

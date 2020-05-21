@@ -10,7 +10,7 @@
 # Falsy Values
 # 1. "" empty string
 # 2.  0
-# 3.  None
+# 3.  None (Basically Undefined in JS)
 
 # typeof equivalent returns the class name
 print(type(2))
