@@ -49,4 +49,13 @@
    5. [Optional/Default Parameters](https://github.com/SSaquif/python-notebook/blob/master/5-functions.py#L33)
    6. [Rest Parameter \*: Tuple](https://github.com/SSaquif/python-notebook/blob/master/5-functions.py#L44)
    7. [Rest Parameter \*\*: Dictionary](https://github.com/SSaquif/python-notebook/blob/master/5-functions.py#L58)
-   8. [Scope and Closure](https://github.com/SSaquif/python-notebook/
+   8. [Scope and Closure](https://github.com/SSaquif/python-notebook/blob/master/5-functions.py#L70)
+
+6. [Data Structures](#)
+
+7. [Classes](#)
+
+8. References
+   1. [Code with Mosh Python Course](https://codewithmosh.com/p/python-programming-course-beginners)
+   2. [Python String Methods](https://www.w3schools.com/python/python_ref_string.asp)
+   3. [Math Module](https://www.w3schools.com/python/module_math.asp)
