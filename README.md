@@ -51,7 +51,21 @@
    7. [Rest Parameter \*\*: Dictionary](https://github.com/SSaquif/python-notebook/blob/master/5-functions.py#L58)
    8. [Scope and Closure](https://github.com/SSaquif/python-notebook/blob/master/5-functions.py#L70)
 
-6. [Data Structures](#)
+6. [Python Data Structures](#)
+
+   1. Lists
+
+      1. [Basic List]()
+      2. [2D array]()
+      3. [Repeating items in a list]()
+      4. [Combined list]()
+      5. [Converting an Iterable to a list]()
+      6. [Converting a String to a List]()
+      7. [Accessing Items in a List (1 index, 2 indexes , 2 indexes + skip items )]()
+      8. [Editing List Items]()
+
+   2. Tuples
+   3. Dictionaries
 
 7. [Classes](#)
 
