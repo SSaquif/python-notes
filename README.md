@@ -53,7 +53,7 @@
 
 6. [Python Data Structures](#)
 
-   1. Lists
+   1. [Lists]()
 
       1. [Basic List]()
       2. [2D array]()
@@ -63,13 +63,42 @@
       6. [Converting a String to a List]()
       7. [Accessing Items in a List (1 index, 2 indexes , 2 indexes + skip items )]()
       8. [Editing List Items]()
+      9. [List Unpacking]()
+      10. [Note, List Packing]()
+      11. [Looping Over Lists]()
+      12. [Looping Over Lists + Item Index: enumerate()]()
+      13. [Destructuring the enumerate() Tuple right away]()
+      14. [Finding Indexes]()
+      15. [Preventing ValueError]()
+      16. [Counting the Number of Occurrences of an Item]()
+      17. [Sorting Lists]()
+      18. [Sorting Lists: Complex Example]()
+      19. [Lambda Functions: Kinda like Callbacks]()
+      20. [Map Function: Another Lambda Function Example]()
+      21. [Filter Function: Another Lambda Function Example]()
+      22. [List Comprehension: Prettier way to Map and Filter]()
+      23. [Zip Function: Combining Lists into Tuples]()
 
-   2. Tuples
-   3. Dictionaries
+   2. [Stacks: LIFO Data Structure]()
+
+      1. [Remove Top Item]()
+      2. [Get Top Item]()
+
+   3. [Queues]()
+   4. [Tuples]()
+   5. [Arrays]()
+   6. [Sets]()
+   7. [Dictionaries]()
 
 7. [Classes](#)
+8. [Exceptions]()
+9. [Modules](#)
+10. [Python Standard Library]()
+11. [Python Package Index]()
+12. [Popular Python Libraries]()
+13. [Machine Learning with Python]()
 
-8. References
-   1. [Code with Mosh Python Course](https://codewithmosh.com/p/python-programming-course-beginners)
-   2. [Python String Methods](https://www.w3schools.com/python/python_ref_string.asp)
-   3. [Math Module](https://www.w3schools.com/python/module_math.asp)
+14. References
+    1. [Code with Mosh Python Course](https://codewithmosh.com/p/python-programming-course-beginners)
+    2. [Python String Methods](https://www.w3schools.com/python/python_ref_string.asp)
+    3. [Math Module](https://www.w3schools.com/python/module_math.asp)
