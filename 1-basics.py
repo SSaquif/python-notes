@@ -24,3 +24,10 @@ print(type(2))
 # Interesting Case
 # bag>>apple
 # returns true, because ascii evaluated I believe
+
+# Easily Swapping Variables
+x = 10
+y = 20
+x, y = y, x
+print('x', x)
+print('y'), y
