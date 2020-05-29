@@ -70,7 +70,7 @@ This are all valid for Python 3. Should mostly be OK for any future versions.
       6. [Converting a String to a List](https://github.com/SSaquif/python-notebook/tree/master/6-python-data-structures/1-list.py#L20)
       7. [Accessing Items in a List (1 index, 2 indexes , 2 indexes + skip items )](https://github.com/SSaquif/python-notebook/tree/master/6-python-data-structures/1-list.py#L24)
       8. [Editing List Items](https://github.com/SSaquif/python-notebook/tree/master/6-python-data-structures/1-list.py#L35)
-      9. [List Unpacking](https://github.com/SSaquif/python-notebook/tree/master/6-python-data-structures/1-list.py#L39): [See Unpacking Operator Below](https://github.com/SSaquif/python-notebook/tree/master/README.md#L154)
+      9. [List Unpacking](https://github.com/SSaquif/python-notebook/tree/master/6-python-data-structures/1-list.py#L39): [See Unpacking Operator Below]
       10. [Note, List Packing](https://github.com/SSaquif/python-notebook/tree/master/6-python-data-structures/1-list.py#L48)
       11. [Looping Over Lists](https://github.com/SSaquif/python-notebook/tree/master/6-python-data-structures/1-list.py#L52)
       12. [Looping Over Lists + Item Index: enumerate()](https://github.com/SSaquif/python-notebook/tree/master/6-python-data-structures/1-list.py#L57)
@@ -83,7 +83,7 @@ This are all valid for Python 3. Should mostly be OK for any future versions.
       19. [Lambda Functions: Kinda like Callbacks](https://github.com/SSaquif/python-notebook/tree/master/6-python-data-structures/1-list.py#L108)
       20. [Map Function: Another Lambda Function Example](https://github.com/SSaquif/python-notebook/tree/master/6-python-data-structures/1-list.py#L114)
       21. [Filter Function: Another Lambda Function Example](https://github.com/SSaquif/python-notebook/tree/master/6-python-data-structures/1-list.py#L137)
-      22. [List Comprehension: Prettier way to Map and Filter](https://github.com/SSaquif/python-notebook/tree/master/6-python-data-structures/1-list.py#L148): [See Comprehension Extended Below](https://github.com/SSaquif/python-notebook/tree/master/README.md#L137)
+      22. [List Comprehension: Prettier way to Map and Filter](https://github.com/SSaquif/python-notebook/tree/master/6-python-data-structures/1-list.py#L148): [See Comprehension Extended Below]
       23. [Zip Function: Combining Lists into Tuples](https://github.com/SSaquif/python-notebook/tree/master/6-python-data-structures/1-list.py#L156)
 
    2. [Stacks: LIFO Data Structure](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/2-stacks.py)
