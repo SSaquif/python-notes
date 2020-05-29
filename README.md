@@ -1,5 +1,11 @@
 # Python Notes
 
+## Intro
+
+This are all valid for Python 3. Should mostly be OK for any future versions.
+
+## Contents
+
 0. [Python Environment Setup](https://github.com/SSaquif/python-notebook/blob/master/0-setup-instructions.md)
 
 1. [Basics](https://github.com/SSaquif/python-notebook/blob/master/1-basics.py)
@@ -52,110 +58,111 @@
    7. [Rest Parameter \*\*: Dictionary](https://github.com/SSaquif/python-notebook/blob/master/5-functions.py#L58)
    8. [Scope and Closure](https://github.com/SSaquif/python-notebook/blob/master/5-functions.py#L70)
 
-6. [Python Data Structures](#)
+6. [Python Data Structures](https://github.com/SSaquif/python-notebook/tree/master/6-python-data-structures)
 
-   1. [Lists]()
+   1. [Lists](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/1-list.py)
 
-      1. [Basic List]()
-      2. [2D array]()
-      3. [Repeating items in a list]()
-      4. [Combined list]()
-      5. [Converting an Iterable to a list]()
-      6. [Converting a String to a List]()
-      7. [Accessing Items in a List (1 index, 2 indexes , 2 indexes + skip items )]()
-      8. [Editing List Items]()
-      9. [List Unpacking](): [See Unpacking Operator]()
-      10. [Note, List Packing]()
-      11. [Looping Over Lists]()
-      12. [Looping Over Lists + Item Index: enumerate()]()
-      13. [Destructuring the enumerate() Tuple right away]()
-      14. [Finding Indexes]()
-      15. [Preventing ValueError]()
-      16. [Counting the Number of Occurrences of an Item]()
-      17. [Sorting Lists]()
-      18. [Sorting Lists: Complex Example]()
-      19. [Lambda Functions: Kinda like Callbacks]()
-      20. [Map Function: Another Lambda Function Example]()
-      21. [Filter Function: Another Lambda Function Example]()
-      22. [List Comprehension: Prettier way to Map and Filter]()
-      23. [Zip Function: Combining Lists into Tuples]()
+      1. [Basic List](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/1-list.py#L1)
+      2. [2D array](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/1-list.py#L4)
+      3. [Repeating items in a list](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/1-list.py#L7)
+      4. [Combined list](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/1-list.py#L11)
+      5. [Converting an Iterable to a list](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/1-list.py#L15)
+      6. [Converting a String to a List](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/1-list.py#L20)
+      7. [Accessing Items in a List (1 index, 2 indexes , 2 indexes + skip items )](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/1-list.py#L24)
+      8. [Editing List Items](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/1-list.py#L35)
+      9. [List Unpacking](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/1-list.py#L39): [See Unpacking Operator Below](https://github.com/SSaquif/python-notebook/blob/master/README.md#L154)
+      10. [Note, List Packing](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/1-list.py#L48)
+      11. [Looping Over Lists](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/1-list.py#L52)
+      12. [Looping Over Lists + Item Index: enumerate()](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/1-list.py#L57)
+      13. [Destructuring the enumerate() Tuple right away](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/1-list.py#L63)
+      14. [Finding Indexes](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/1-list.py#L68)
+      15. [Preventing ValueError](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/1-list.py#L76)
+      16. [Counting the Number of Occurrences of an Item](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/1-list.py#L81)
+      17. [Sorting Lists](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/1-list.py#L85)
+      18. [Sorting Lists: Complex Example](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/1-list.py#L98)
+      19. [Lambda Functions: Kinda like Callbacks](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/1-list.py#L108)
+      20. [Map Function: Another Lambda Function Example](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/1-list.py#L114)
+      21. [Filter Function: Another Lambda Function Example](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/1-list.py#L137)
+      22. [List Comprehension: Prettier way to Map and Filter](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/1-list.py#L148): [See Comprehension Extended Below](https://github.com/SSaquif/python-notebook/blob/master/README.md#L137)
+      23. [Zip Function: Combining Lists into Tuples](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/1-list.py#L156)
 
-   2. [Stacks: LIFO Data Structure]()
+   2. [Stacks: LIFO Data Structure](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/2-stacks.py)
 
-      1. [Remove Top Item]()
-      2. [Get Top Item]()
+      1. [Remove Top Item](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/2-stacks.py#L8)
+      2. [Get Top Item](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/2-stacks.py#L12)
 
-   3. [Queues: In General FIFO]()
+   3. [Queues: In General FIFO](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/3-queue.py)
 
-      1. [Turning List to queue]()
-      2. [Removing First Item]()
-      3. [Removing Last Item: Technically not a Queue Operation]()
-      4. [Check if Queue is Empty]()
+      1. [Turning List to queue](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/3-queue.py#L3)
+      2. [Removing First Item](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/3-queue.py#L12)
+      3. [Removing Last Item: Technically not a Queue Operation](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/3-queue.py#L13)
+      4. [Check if Queue is Empty](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/3-queue.py#L18)
 
-   4. [Tuples: Read Only List In General]()
+   4. [Tuples: Read Only List In General](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/4-tuple.py)
 
-      1. [Empty Tuple]()
-      2. [Trailing Comma format]()
-      3. [Tuple Using Concatenation]()
-      4. [Repeating a Tuple: \* Operator]()
-      5. [Converting a Iterable to a Tuple]()
-      6. [Converting a String( which is a Iterable) to a Tuple]()
-      7. [Accessing Elements in Tuple]()
-      8. [Destructuring/Unpacking Tuple: Just like Lists]()
-      9. [Check if Item exists in Tuple]()
-      10. [Trying to modify Tuple === Error]()
+      1. [Empty Tuple](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/4-tuple.py#L3)
+      2. [Trailing Comma format](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/4-tuple.py#L7)
+      3. [Tuple Using Concatenation](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/4-tuple.py#L11)
+      4. [Repeating a Tuple: \* Operator](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/4-tuple.py#L15)
+      5. [Converting a Iterable to a Tuple](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/4-tuple.py#L19)
+      6. [Converting a String( which is a Iterable) to a Tuple](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/4-tuple.py#L23)
+      7. [Accessing Elements in Tuple](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/4-tuple.py#L27)
+      8. [Destructuring/Unpacking Tuple: Just like Lists](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/4-tuple.py#L31)
+      9. [Check if Item exists in Tuple](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/4-tuple.py#L37)
+      10. [Trying to modify Tuple === Error](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/4-tuple.py#L41)
 
-   5. [Arrays]()
+   5. [Arrays](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/5-arrays.py)
 
-   6. [Sets: An Unordered Collection with NO Diplicates]()
+   6. [Sets: An Unordered Collection with NO Duplicates](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/6-sets.py)
 
-      1. [Converting a List to a Set]()
-      2. [Defining a Set :: {}]()
-      3. [Adding and Removing items]()
-      4. [Mathematical Set Operations:: This is What Makes Sets Powerful]()
-         1. [Union: |]()
-         2. [Intersection : &]()
-         3. [Difference: -]()
-         4. [Semantic Difference (not in both): ^]()
-      5. [Note: We Can Not Use Indexes in Sets (unordered) : firstSet[1] === Error]()
+      1. [Converting a List to a Set](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/6-sets.py#L3)
+      2. [Defining a Set :: {}](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/6-sets.py#L8)
+      3. [Adding and Removing items](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/6-sets.py#L11)
+      4. [Mathematical Set Operations:: This is What Makes Sets Powerful](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/6-sets.py#L19)
+         1. [Union: |](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/6-sets.py#L20)
+         2. [Intersection : &](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/6-sets.py#L23)
+         3. [Difference: -](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/6-sets.py#L26)
+         4. [Semantic Difference (not in both): ^](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/6-sets.py#L29)
+      5. [Note: We Can Not Use Indexes in Sets (unordered) : firstSet[1] === Error](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/6-sets.py#L33)
 
-   7. [Dictionaries]()
+   7. [Dictionaries](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/7-dictionary.py)
 
-      1. [Creating Dictionaries]()
-         1. [Way 1: JSONish]()
-         2. [Way 2: dict()]()
-      2. [Adding a New Key]()
-      3. [Accessing Values: Using Keys]()
-         1. [Way 1: First Check]()
-         2. [Way 2: use get() directly]()
-      4. [Deleting keys]()
-      5. [Looping Through Dictionary Key]()
-         1. [Way 1]()
-         2. [Way 2.1]()
-         3. [Way 2.2: Destructuring right away]()
+      1. [Creating Dictionaries](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/7-dictionary.py#L1)
+         1. [Way 1: JSONish](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/7-dictionary.py#L2)
+         2. [Way 2: dict()](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/7-dictionary.py#L4)
+      2. [Adding a New Key](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/7-dictionary.py#L10)
+      3. [Accessing Values: Using Keys](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/7-dictionary.py#L14)
+         1. [Way 1: First Check](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/7-dictionary.py#L15)
+         2. [Way 2: use get() directly](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/7-dictionary.py#L20)
+      4. [Deleting keys](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/7-dictionary.py#L24)
+      5. [Looping Through Dictionary Key](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/7-dictionary.py#L28)
+         1. [Way 1](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/7-dictionary.py#L29)
+         2. [Way 2.1](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/7-dictionary.py#L34)
+         3. [Way 2.2: Destructuring right away](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/7-dictionary.py#L39)
 
-   8. [Comprehensions Extended]()
+   8. [Comprehensions Extended](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/8-comprehensions-extended.py)
 
-      1. [Reminder:Non-Comprehension Way]()
-      2. [List Comprehension]()
-      3. [Set Comprehension]()
-      4. [Dictionary Comprehension]()
-         1. [Example 1]()
-         2. [Example 2]()
-      5. [Tuple Comprehension == Generator Object]()
+      1. [Reminder:Non-Comprehension Way](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/8-comprehensions-extended.py#L1)
+      2. [List Comprehension](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/8-comprehensions-extended.py#L9)
+      3. [Set Comprehension](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/8-comprehensions-extended.py#L14)
+      4. [Dictionary Comprehension](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/8-comprehensions-extended.py#L19)
+         1. [Example 1](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/8-comprehensions-extended.py#L22)
+         2. [Example 2](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/8-comprehensions-extended.py#L27)
+      5. [Tuple Comprehension == Generator Object](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/8-comprehensions-extended.py#L34)
 
-   9. [Generators]()
+   9. [Generators](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/9-generators.py)
 
-      1. [What is a Generator (Wikipedia Definition)]()
-      2. [Memory Efficiency of Generators]()
-      3. [Shortcomings]()
+      1. [What is a Generator (Wikipedia Definition)](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/9-generators.py#L1)
+      2. [Memory Efficiency of Generators](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/9-generators.py#L16)
+      3. [Shortcomings](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/9-generators.py#L25)
+      4. TODO: Learn More About Generators. Also in other languages.
 
-   10. [Unpacking Operator]()
+   10. [Unpacking Operator](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/10-unpacking-op-tricks.py)
 
-       1. [Printing values instead of the List or etc]()
-       2. [Unpacking range()/other iterable and putting it in list]()
-       3. [Unpacking String to a List]()
-       4. [Dictionary Unpacking]()
+       1. [Printing values instead of the List or etc](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/10-unpacking-op-tricks.py#L1)
+       2. [Unpacking range()/other iterable and putting it in list](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/10-unpacking-op-tricks.py#L6)
+       3. [Unpacking String to a List](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/10-unpacking-op-tricks.py#L14)
+       4. [Dictionary Unpacking](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/10-unpacking-op-tricks.py#L20)
 
 7. [Throwing and Handling Exceptions]()
 
@@ -163,11 +170,11 @@
 
 9. [Modules](#)
 
-10. [Python Standard Library]() TBA
+10. Python Standard Library: TBA
 
-11. [Python Package Index]() TBA
+11. Python Package Index: TBA
 
-12. [Popular Python Libraries]() TBA
+12. Popular Python Libraries: TBA
 
 13. [Machine Learning with Python]()
 
