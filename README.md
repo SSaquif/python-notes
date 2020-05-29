@@ -62,7 +62,7 @@ This are all valid for Python 3. Should mostly be OK for any future versions.
 
    1. [Lists](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/1-list.py)
 
-      1. [Basic List](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/1-list.py#L1)
+      1. [Basic List](https://github.com/SSaquif/python-notebook/tree/master/6-python-data-structures/1-list.py#L1)
       2. [2D array](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/1-list.py#L4)
       3. [Repeating items in a list](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/1-list.py#L7)
       4. [Combined list](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/1-list.py#L11)
