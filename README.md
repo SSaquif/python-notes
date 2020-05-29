@@ -3,7 +3,8 @@
 ## Intro
 
 This are all valid for Python 3. Should mostly be OK for any future versions.
-NTS for Future: On the Github Links for the contents, some require blob to switched to tree. When dealing with lines for files inside a folder.
+
+> NTS for Future: On the Github Links for the contents, some require blob to switched to tree. When dealing with lines for files inside a folder.
 
 ## Contents
 
