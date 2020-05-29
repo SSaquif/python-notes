@@ -11,7 +11,8 @@
    5. [Comparison Operators](https://github.com/SSaquif/python-notebook/blob/master/1-basics.py#L18)
    6. [Conditional Operators: and, or ,not](https://github.com/SSaquif/python-notebook/blob/master/1-basics.py#L21)
    7. [Interesting Case(s)](https://github.com/SSaquif/python-notebook/blob/master/1-basics.py#L24)
-   8. [\*\*Taking Input](https://github.com/SSaquif/python-notebook/blob/master/3-numbers.py#L24)
+   8. [Easily Swapping Variables](https://github.com/SSaquif/python-notebook/blob/master/1-basics.py#L28)
+   9. [\*\*Taking Input](https://github.com/SSaquif/python-notebook/blob/master/3-numbers.py#L24)
 
 2. [Strings](https://github.com/SSaquif/python-notebook/blob/master/2-strings.py)
 
@@ -63,7 +64,7 @@
       6. [Converting a String to a List]()
       7. [Accessing Items in a List (1 index, 2 indexes , 2 indexes + skip items )]()
       8. [Editing List Items]()
-      9. [List Unpacking]()
+      9. [List Unpacking](): [See Unpacking Operator]()
       10. [Note, List Packing]()
       11. [Looping Over Lists]()
       12. [Looping Over Lists + Item Index: enumerate()]()
@@ -84,21 +85,95 @@
       1. [Remove Top Item]()
       2. [Get Top Item]()
 
-   3. [Queues]()
-   4. [Tuples]()
+   3. [Queues: In General FIFO]()
+
+      1. [Turning List to queue]()
+      2. [Removing First Item]()
+      3. [Removing Last Item: Technically not a Queue Operation]()
+      4. [Check if Queue is Empty]()
+
+   4. [Tuples: Read Only List In General]()
+
+      1. [Empty Tuple]()
+      2. [Trailing Comma format]()
+      3. [Tuple Using Concatenation]()
+      4. [Repeating a Tuple: \* Operator]()
+      5. [Converting a Iterable to a Tuple]()
+      6. [Converting a String( which is a Iterable) to a Tuple]()
+      7. [Accessing Elements in Tuple]()
+      8. [Destructuring/Unpacking Tuple: Just like Lists]()
+      9. [Check if Item exists in Tuple]()
+      10. [Trying to modify Tuple === Error]()
+
    5. [Arrays]()
-   6. [Sets]()
+
+   6. [Sets: An Unordered Collection with NO Diplicates]()
+
+      1. [Converting a List to a Set]()
+      2. [Defining a Set :: {}]()
+      3. [Adding and Removing items]()
+      4. [Mathematical Set Operations:: This is What Makes Sets Powerful]()
+         1. [Union: |]()
+         2. [Intersection : &]()
+         3. [Difference: -]()
+         4. [Semantic Difference (not in both): ^]()
+      5. [Note: We Can Not Use Indexes in Sets (unordered) : firstSet[1] === Error]()
+
    7. [Dictionaries]()
 
-7. [Classes](#)
-8. [Exceptions]()
+      1. [Creating Dictionaries]()
+         1. [Way 1: JSONish]()
+         2. [Way 2: dict()]()
+      2. [Adding a New Key]()
+      3. [Accessing Values: Using Keys]()
+         1. [Way 1: First Check]()
+         2. [Way 2: use get() directly]()
+      4. [Deleting keys]()
+      5. [Looping Through Dictionary Key]()
+         1. [Way 1]()
+         2. [Way 2.1]()
+         3. [Way 2.2: Destructuring right away]()
+
+   8. [Comprehensions Extended]()
+
+      1. [Reminder:Non-Comprehension Way]()
+      2. [List Comprehension]()
+      3. [Set Comprehension]()
+      4. [Dictionary Comprehension]()
+         1. [Example 1]()
+         2. [Example 2]()
+      5. [Tuple Comprehension == Generator Object]()
+
+   9. [Generators]()
+
+      1. [What is a Generator (Wikipedia Definition)]()
+      2. [Memory Efficiency of Generators]()
+      3. [Shortcomings]()
+
+   10. [Unpacking Operator]()
+
+       1. [Printing values instead of the List or etc]()
+       2. [Unpacking range()/other iterable and putting it in list]()
+       3. [Unpacking String to a List]()
+       4. [Dictionary Unpacking]()
+
+7. [Throwing and Handling Exceptions]()
+
+8. [Classes](#)
+
 9. [Modules](#)
-10. [Python Standard Library]()
-11. [Python Package Index]()
-12. [Popular Python Libraries]()
+
+10. [Python Standard Library]() TBA
+
+11. [Python Package Index]() TBA
+
+12. [Popular Python Libraries]() TBA
+
 13. [Machine Learning with Python]()
 
 14. References
     1. [Code with Mosh Python Course](https://codewithmosh.com/p/python-programming-course-beginners)
     2. [Python String Methods](https://www.w3schools.com/python/python_ref_string.asp)
     3. [Math Module](https://www.w3schools.com/python/module_math.asp)
+    4. [Python 3 Type Codes : Useful for Arrays etc](https://docs.python.org/3/library/array.html)
+    5. [Generator in Programming, Also See Generators Section](<https://en.wikipedia.org/wiki/Generator_(computer_programming)>)
