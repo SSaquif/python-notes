@@ -8,9 +8,9 @@ This are all valid for Python 3. Should mostly be OK for any future versions.
 
 ## Contents
 
-0. [Python Environment Setup, Pip etc](https://github.com/SSaquif/python-notebook/blob/master/0-setup-instructions.md)
+0. ### [Python Environment Setup, Pip etc](https://github.com/SSaquif/python-notebook/blob/master/0-setup-instructions.md)
 
-1. [Basics](https://github.com/SSaquif/python-notebook/blob/master/1-basics.py)
+1. ### [Basics](https://github.com/SSaquif/python-notebook/blob/master/1-basics.py)
 
    1. [Primitives](https://github.com/SSaquif/python-notebook/blob/master/1-basics.py#L1)
    2. [Complex Types](https://github.com/SSaquif/python-notebook/blob/master/1-basics.py#L6)
@@ -22,7 +22,7 @@ This are all valid for Python 3. Should mostly be OK for any future versions.
    8. [Easily Swapping Variables](https://github.com/SSaquif/python-notebook/blob/master/1-basics.py#L28)
    9. [\*\*Taking Input](https://github.com/SSaquif/python-notebook/blob/master/3-numbers.py#L24)
 
-2. [Strings](https://github.com/SSaquif/python-notebook/blob/master/2-strings.py)
+2. ### [Strings](https://github.com/SSaquif/python-notebook/blob/master/2-strings.py)
 
    1. [String Multiplication](https://github.com/SSaquif/python-notebook/blob/master/2-strings.py#L1)
    2. [Valid String Quotations](https://github.com/SSaquif/python-notebook/blob/master/2-strings.py#L4)
@@ -30,7 +30,7 @@ This are all valid for Python 3. Should mostly be OK for any future versions.
    4. [Escape Sequences](https://github.com/SSaquif/python-notebook/blob/master/2-strings.py#L24)
    5. [String CONCATENATION and FORMATTED Strings](https://github.com/SSaquif/python-notebook/blob/master/2-strings.py#L31)
 
-3. [Numbers](https://github.com/SSaquif/python-notebook/blob/master/3-numbers.py)
+3. ### [Numbers](https://github.com/SSaquif/python-notebook/blob/master/3-numbers.py)
 
    1. [Different kinds of Numbers in Python](https://github.com/SSaquif/python-notebook/blob/master/3-numbers.py#L3)
    2. [Mathematical Operators (see Integer Division and Power)](https://github.com/SSaquif/python-notebook/blob/master/3-numbers.py#L10)
@@ -38,7 +38,7 @@ This are all valid for Python 3. Should mostly be OK for any future versions.
    4. [Useful Functions from Math Module](https://github.com/SSaquif/python-notebook/blob/master/3-numbers.py#L22)
    5. [Type Conversion](https://github.com/SSaquif/python-notebook/blob/master/3-numbers.py#L27)
 
-4. [Control-Flow](https://github.com/SSaquif/python-notebook/blob/master/4-control-flow.py)
+4. ### [Control-Flow](https://github.com/SSaquif/python-notebook/blob/master/4-control-flow.py)
 
    1. [If...ElseIf...Else](https://github.com/SSaquif/python-notebook/blob/master/4-control-flow.py#L1)
    2. [Ternary Operator](https://github.com/SSaquif/python-notebook/blob/master/4-control-flow.py#L14)
@@ -49,7 +49,7 @@ This are all valid for Python 3. Should mostly be OK for any future versions.
    7. [While Loops](https://github.com/SSaquif/python-notebook/blob/master/4-control-flow.py#L55)
    8. [Infinite Loops](https://github.com/SSaquif/python-notebook/blob/master/4-control-flow.py#L64)
 
-5. [Functions](https://github.com/SSaquif/python-notebook/blob/master/5-functions.py)
+5. ### [Functions](https://github.com/SSaquif/python-notebook/blob/master/5-functions.py)
 
    1. [Basic Skeleton](https://github.com/SSaquif/python-notebook/blob/master/5-functions.py#L1)
    2. [With Non-Optional Parameters](https://github.com/SSaquif/python-notebook/blob/master/5-functions.py#L9)
@@ -60,7 +60,7 @@ This are all valid for Python 3. Should mostly be OK for any future versions.
    7. [Rest Parameter \*\*: Dictionary](https://github.com/SSaquif/python-notebook/blob/master/5-functions.py#L58)
    8. [Scope and Closure](https://github.com/SSaquif/python-notebook/blob/master/5-functions.py#L70)
 
-6. [Python Data Structures](https://github.com/SSaquif/python-notebook/tree/master/6-python-data-structures)
+6. ### [Python Data Structures](https://github.com/SSaquif/python-notebook/tree/master/6-python-data-structures)
 
    1. [Lists](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/1-list.py)
 
@@ -166,7 +166,7 @@ This are all valid for Python 3. Should mostly be OK for any future versions.
        3. [Unpacking String to a List](https://github.com/SSaquif/python-notebook/tree/master/6-python-data-structures/10-unpacking-op-tricks.py#L14)
        4. [Dictionary Unpacking](https://github.com/SSaquif/python-notebook/tree/master/6-python-data-structures/10-unpacking-op-tricks.py#L20)
 
-7. [Handling and Raising Exceptions](https://github.com/SSaquif/python-notebook/tree/master/7-exceptions)
+7. ### [Handling and Raising Exceptions](https://github.com/SSaquif/python-notebook/tree/master/7-exceptions)
 
    1. [Handling Exceptions](https://github.com/SSaquif/python-notebook/blob/master/7-exceptions/1-handling-exceptions.py)
 
@@ -184,7 +184,7 @@ This are all valid for Python 3. Should mostly be OK for any future versions.
       2. [Rasing Exceptions Efficiently == Don't Raise Them When Possible](https://github.com/SSaquif/python-notebook/tree/master/7-exceptions/2-raising-exceptions.py#L18)
       3. [Testing Efficiency using timeit()](https://github.com/SSaquif/python-notebook/tree/master/7-exceptions/2-raising-exceptions.py#L60)
 
-8. [Classes](https://github.com/SSaquif/python-notebook/tree/master/8-classes)
+8. ### [Classes: Part 1, Basics](https://github.com/SSaquif/python-notebook/tree/master/8-classes)
 
    1. [self Parameter: refers to current instance (all class methods have it)](https://github.com/SSaquif/python-notebook/tree/master/8-classes/1-Point.py#L21)
    2. [Class Level Attribute](https://github.com/SSaquif/python-notebook/tree/master/8-classes/1-Point.py#L3)
@@ -197,37 +197,40 @@ This are all valid for Python 3. Should mostly be OK for any future versions.
       1. [The first param (cls): used to call the constructor](https://github.com/SSaquif/python-notebook/tree/master/8-classes/1-Point.py#L16)
       2. [Class Methods Test](https://github.com/SSaquif/python-notebook/tree/master/8-classes/1-Point.py#L59)
    9. [isinstance() Method](https://github.com/SSaquif/python-notebook/tree/master/8-classes/1-Point.py#L65)
-   10. [Magic Methods: Redefining Them == Implements New behavior](https://github.com/SSaquif/python-notebook/tree/master/8-classes/2-MagicMethods.py)
-       1. [init : As seen previously in constructor section](https://github.com/SSaquif/python-notebook/tree/master/8-classes/2-MagicMethods.py#L2)
-       2. [str: first example of rewriting old behavior with new one. Overriding](https://github.com/SSaquif/python-notebook/tree/master/8-classes/2-MagicMethods.py#L7)
-          1. [Test str](https://github.com/SSaquif/python-notebook/tree/master/8-classes/2-MagicMethods.py#L31)
-       3. [eq, gt: Redefining Equality Operators](https://github.com/SSaquif/python-notebook/tree/master/8-classes/2-MagicMethods.py#L12)
-          1. [Test eq](https://github.com/SSaquif/python-notebook/tree/master/8-classes/2-MagicMethods.py#L36)
-          1. [Test gt](https://github.com/SSaquif/python-notebook/tree/master/8-classes/2-MagicMethods.py#L40)
-       4. [add: Example of Redefining Arithmetic Operators](https://github.com/SSaquif/python-notebook/tree/master/8-classes/2-MagicMethods.py#L)
-          1. [Test add](https://github.com/SSaquif/python-notebook/tree/master/8-classes/2-MagicMethods.py#L44)
-       5. **Note**: More Magic Methods in Section Below
-   11. [Using Magic Methods to Create the Tag Data Structure(DS): A Custom Container/DS Class](https://github.com/SSaquif/python-notebook/blob/master/8-classes/3-Tags.py#L1)
-       1. [getItem : Defining What Our DS returns (when using bracket notation)](https://github.com/SSaquif/python-notebook/blob/master/8-classes/3-Tags.py#L14)
-          1. [Test getItem](https://github.com/SSaquif/python-notebook/blob/master/8-classes/3-Tags.py#L39)
-       2. [setItem:](https://github.com/SSaquif/python-notebook/blob/master/8-classes/3-Tags.py#L17)
-          1. [Test setItem](https://github.com/SSaquif/python-notebook/blob/master/8-classes/3-Tags.py#L42)
-       3. [len](https://github.com/SSaquif/python-notebook/blob/master/8-classes/3-Tags.py#L20)
-          1. [Test len](https://github.com/SSaquif/python-notebook/blob/master/8-classes/3-Tags.py#L47)
-       4. [iter : Making our DS iterable](https://github.com/SSaquif/python-notebook/blob/master/8-classes/3-Tags.py#L23)
-          1. [Test iter](https://github.com/SSaquif/python-notebook/blob/master/8-classes/3-Tags.py#L50)
-   12. [Private Members: prefix Attr or Method with \_\_](https://github.com/SSaquif/python-notebook/blob/master/8-classes/3-Tags.py#L9)
-       1. [Private is not really Private in python: bypassing using \_\_dict\_\_](https://github.com/SSaquif/python-notebook/blob/master/8-classes/3-Tags.py#L54)
 
-9. [Modules](#)
+9. ### [Classes: Part 2, Python Magic Methods](https://github.com/SSaquif/python-notebook/tree/master/8-classes)
 
-10. Python Standard Library: TBA
+   1. [Magic Methods: Redefining Them == Implements New behavior](https://github.com/SSaquif/python-notebook/tree/master/8-classes/2-MagicMethods.py)
+      1. [init : As seen previously in constructor section](https://github.com/SSaquif/python-notebook/tree/master/8-classes/2-MagicMethods.py#L2)
+      2. [str: first example of rewriting old behavior with new one. Overriding](https://github.com/SSaquif/python-notebook/tree/master/8-classes/2-MagicMethods.py#L7)
+         1. [Test str](https://github.com/SSaquif/python-notebook/tree/master/8-classes/2-MagicMethods.py#L31)
+      3. [eq, gt: Redefining Equality Operators](https://github.com/SSaquif/python-notebook/tree/master/8-classes/2-MagicMethods.py#L12)
+         1. [Test eq](https://github.com/SSaquif/python-notebook/tree/master/8-classes/2-MagicMethods.py#L36)
+         1. [Test gt](https://github.com/SSaquif/python-notebook/tree/master/8-classes/2-MagicMethods.py#L40)
+      4. [add: Example of Redefining Arithmetic Operators](https://github.com/SSaquif/python-notebook/tree/master/8-classes/2-MagicMethods.py#L)
+         1. [Test add](https://github.com/SSaquif/python-notebook/tree/master/8-classes/2-MagicMethods.py#L44)
+      5. **Note**: More Magic Methods in Section Below
+   2. [Using Magic Methods to Create the Tag Data Structure(DS): A Custom Container/DS Class](https://github.com/SSaquif/python-notebook/blob/master/8-classes/3-Tags.py#L1)
+      1. [getItem : Defining What Our DS returns (when using bracket notation)](https://github.com/SSaquif/python-notebook/blob/master/8-classes/3-Tags.py#L14)
+         1. [Test getItem](https://github.com/SSaquif/python-notebook/blob/master/8-classes/3-Tags.py#L39)
+      2. [setItem:](https://github.com/SSaquif/python-notebook/blob/master/8-classes/3-Tags.py#L17)
+         1. [Test setItem](https://github.com/SSaquif/python-notebook/blob/master/8-classes/3-Tags.py#L42)
+      3. [len](https://github.com/SSaquif/python-notebook/blob/master/8-classes/3-Tags.py#L20)
+         1. [Test len](https://github.com/SSaquif/python-notebook/blob/master/8-classes/3-Tags.py#L47)
+      4. [iter : Making our DS iterable](https://github.com/SSaquif/python-notebook/blob/master/8-classes/3-Tags.py#L23)
+         1. [Test iter](https://github.com/SSaquif/python-notebook/blob/master/8-classes/3-Tags.py#L50)
+   3. [Private Members: prefix Attr or Method with \_\_](https://github.com/SSaquif/python-notebook/blob/master/8-classes/3-Tags.py#L9)
+      1. [Private is not really Private in python: bypassing using \_\_dict\_\_](https://github.com/SSaquif/python-notebook/blob/master/8-classes/3-Tags.py#L54)
 
-11. Python Package Index: TBA
+10. ### [Modules](#)
 
-12. Popular Python Libraries: TBA
+11. ### Python Standard Library: TBA
 
-13. [Machine Learning with Python]()
+12. ### Python Package Index: TBA
+
+13. ### Popular Python Libraries: TBA
+
+14. ### [Machine Learning with Python]()
 
 ## References
 
