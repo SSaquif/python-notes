@@ -1,6 +1,6 @@
 # Python Notes
 
-## Intro
+## Intro & HouseKeeping
 
 This are all valid for Python 3. Should mostly be OK for any future versions.
 
@@ -197,10 +197,27 @@ This are all valid for Python 3. Should mostly be OK for any future versions.
       1. [The first param (cls): used to call the constructor](https://github.com/SSaquif/python-notebook/tree/master/8-classes/1-Point.py#L16)
       2. [Class Methods Test](https://github.com/SSaquif/python-notebook/tree/master/8-classes/1-Point.py#L59)
    9. [isinstance() Method](https://github.com/SSaquif/python-notebook/tree/master/8-classes/1-Point.py#L65)
-   10. [Magic Methods: Redefining Them == Implements New behaviour](https://github.com/SSaquif/python-notebook/tree/master/8-classes/2-MagicMethods.py)
+   10. [Magic Methods: Redefining Them == Implements New behavior](https://github.com/SSaquif/python-notebook/tree/master/8-classes/2-MagicMethods.py)
        1. [init : As seen previously in constructor section](https://github.com/SSaquif/python-notebook/tree/master/8-classes/2-MagicMethods.py#L2)
        2. [str: first example of rewriting old behavior with new one. Overriding](https://github.com/SSaquif/python-notebook/tree/master/8-classes/2-MagicMethods.py#L7)
-          1. [Test](https://github.com/SSaquif/python-notebook/tree/master/8-classes/2-MagicMethods.py#L14)
+          1. [Test str](https://github.com/SSaquif/python-notebook/tree/master/8-classes/2-MagicMethods.py#L31)
+       3. [eq, gt: Redefining Equality Operators](https://github.com/SSaquif/python-notebook/tree/master/8-classes/2-MagicMethods.py#L12)
+          1. [Test eq](https://github.com/SSaquif/python-notebook/tree/master/8-classes/2-MagicMethods.py#L36)
+          1. [Test gt](https://github.com/SSaquif/python-notebook/tree/master/8-classes/2-MagicMethods.py#L40)
+       4. [add: Example of Redefining Arithmetic Operators](https://github.com/SSaquif/python-notebook/tree/master/8-classes/2-MagicMethods.py#L)
+          1. [Test add](https://github.com/SSaquif/python-notebook/tree/master/8-classes/2-MagicMethods.py#L44)
+       5. **Note**: More Magic Methods in Section Below
+   11. [Using Magic Methods to Create the Tag Data Structure(DS): A Custom Container/DS Class]()
+       1. [getItem : Defining What Our DS returns (when using bracket notation)]()
+          1. [Test]()
+       2. [setItem:]()
+          1. [Test]()
+       3. [len]()
+          1. [Test]()
+       4. [iter : Making our DS iterable]()
+          1. [Test]()
+   12. [Private Members: prefix Attr or Method with \_\_]()
+       1. [Private is not really Private in python]()
 
 9. [Modules](#)
 
