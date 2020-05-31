@@ -20,6 +20,7 @@ if 'x' in pointA:
 # Way2: use get() directly
 print(pointA.get('x'))
 print(pointA.get('a'))  # Returns None
+print(pointA.get('a', 0))  # Returns 0, default value set to 0 instead of None 
 
 # Deleting keys
 del pointA['x']
