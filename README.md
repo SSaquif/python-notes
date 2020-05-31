@@ -136,11 +136,11 @@ This are all valid for Python 3. Should mostly be OK for any future versions.
       3. [Accessing Values: Using Keys](https://github.com/SSaquif/python-notebook/tree/master/6-python-data-structures/7-dictionary.py#L14)
          1. [Way 1: First Check](https://github.com/SSaquif/python-notebook/tree/master/6-python-data-structures/7-dictionary.py#L15)
          2. [Way 2: use get() directly](https://github.com/SSaquif/python-notebook/tree/master/6-python-data-structures/7-dictionary.py#L20)
-      4. [Deleting keys](https://github.com/SSaquif/python-notebook/tree/master/6-python-data-structures/7-dictionary.py#L24)
-      5. [Looping Through Dictionary Key](https://github.com/SSaquif/python-notebook/tree/master/6-python-data-structures/7-dictionary.py#L28)
-         1. [Way 1](https://github.com/SSaquif/python-notebook/tree/master/6-python-data-structures/7-dictionary.py#L29)
-         2. [Way 2.1](https://github.com/SSaquif/python-notebook/tree/master/6-python-data-structures/7-dictionary.py#L34)
-         3. [Way 2.2: Destructuring right away](https://github.com/SSaquif/python-notebook/tree/master/6-python-data-structures/7-dictionary.py#L39)
+      4. [Deleting keys](https://github.com/SSaquif/python-notebook/tree/master/6-python-data-structures/7-dictionary.py#L25)
+      5. [Looping Through Dictionary Key](https://github.com/SSaquif/python-notebook/tree/master/6-python-data-structures/7-dictionary.py#L29)
+         1. [Way 1](https://github.com/SSaquif/python-notebook/tree/master/6-python-data-structures/7-dictionary.py#L30)
+         2. [Way 2.1](https://github.com/SSaquif/python-notebook/tree/master/6-python-data-structures/7-dictionary.py#L35)
+         3. [Way 2.2: Destructuring right away](https://github.com/SSaquif/python-notebook/tree/master/6-python-data-structures/7-dictionary.py#L40)
 
    8. [Comprehensions Extended](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/8-comprehensions-extended.py)
 
