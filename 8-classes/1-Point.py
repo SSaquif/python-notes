@@ -5,7 +5,7 @@ class Point:
 
     # Constructors: using magic method __init__
     def __init__(self, x=0, y=0, color=default_color):
-        # Object Attributes
+        # Instance Attributes
         self.x = x
         self.y = y
         self.color = color
@@ -30,7 +30,7 @@ pointB = Point()  # Default x and y values used
 pointC = Point.zero()
 print('\n')
 
-# Accessing Object Attributes and Methods
+# Accessing Instance Attributes and Methods
 print('pointA Attributes and Methods')
 print('Attribute x:', pointA.x)
 print('Attribute y:', pointA.y)

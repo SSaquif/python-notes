@@ -4,7 +4,7 @@
 
 This are all valid for Python 3. Should mostly be OK for any future versions.
 
-> NTS for Future: When Linking code on Github, some links require /blob/ to be switched to /tree/. Solves Issue arising with when dealing with lines for files inside a folder.
+> NTS for Future: When Linking code on Github, some links require /blob/ to be switched to /tree/. Solves Issue arising when referencing lines from files inside a folder.
 
 ## Contents
 
@@ -184,22 +184,23 @@ This are all valid for Python 3. Should mostly be OK for any future versions.
       2. [Rasing Exceptions Efficiently == Don't Raise Them When Possible](https://github.com/SSaquif/python-notebook/tree/master/7-exceptions/2-raising-exceptions.py#L18)
       3. [Testing Efficiency using timeit()](https://github.com/SSaquif/python-notebook/tree/master/7-exceptions/2-raising-exceptions.py#L60)
 
-8. [Classes](#)
+8. [Classes](https://github.com/SSaquif/python-notebook/tree/master/8-classes)
 
-   1. [Class Level Attribute]()
-   2. [Constructors: using magic method init]()
-   3. [self Parameter: refers to current instance (all class methods have it)]()
-   4. [Accessing Instance Attributes and Methods]()
-   5. [Accessing Class Level Attribute]()
-   6. [Altering Instance Attributes: Objects are Dynamic in python like JS]()
-   7. [Altering Class Attributes: Changing for ALL vs ONE Instance]()
-   8. [Class Methods: @classmethod]()
-      1. [The first param (cls): used to call the constructor]()
-      2. [Class Methods Test]()
-   9. [Magic Methods: Rewriting, Implements New behaviour]()
-      1. [init : As seen previously in constructor section]()
-      2. [str: first example of rewriting old behavior with new one. Overriding]()
-         1. [Test]()
+   1. [self Parameter: refers to current instance (all class methods have it)](https://github.com/SSaquif/python-notebook/blob/master/8-classes/1-Point.py#L21)
+   2. [Class Level Attribute](https://github.com/SSaquif/python-notebook/blob/master/8-classes/1-Point.py#L3)
+   3. [Constructors: using magic method init](https://github.com/SSaquif/python-notebook/blob/master/8-classes/1-Point.py#L6)
+   4. [Accessing Instance Attributes and Methods](https://github.com/SSaquif/python-notebook/blob/master/8-classes/1-Point.py#L33)
+   5. [Accessing Class Level Attribute](https://github.com/SSaquif/python-notebook/blob/master/8-classes/1-Point.py#L41)
+   6. [Altering Instance Attributes: Objects are Dynamic in python like JS](https://github.com/SSaquif/python-notebook/blob/master/8-classes/1-Point.py#L47)
+   7. [Altering Class Attributes: Changing for ALL vs ONE Instance](https://github.com/SSaquif/python-notebook/blob/master/8-classes/1-Point.py#L50)
+   8. [Class Methods: @classmethod](https://github.com/SSaquif/python-notebook/blob/master/8-classes/1-Point.py#L14)
+      1. [The first param (cls): used to call the constructor](https://github.com/SSaquif/python-notebook/blob/master/8-classes/1-Point.py#L16)
+      2. [Class Methods Test](https://github.com/SSaquif/python-notebook/blob/master/8-classes/1-Point.py#L59)
+   9. [isinstance() Method](https://github.com/SSaquif/python-notebook/blob/master/8-classes/1-Point.py#L65)
+   10. [Magic Methods: Redefining Them == Implements New behaviour](https://github.com/SSaquif/python-notebook/blob/master/8-classes/2-MagicMethods.py)
+       1. [init : As seen previously in constructor section](https://github.com/SSaquif/python-notebook/blob/master/8-classes/2-MagicMethods.py#L2)
+       2. [str: first example of rewriting old behavior with new one. Overriding](https://github.com/SSaquif/python-notebook/blob/master/8-classes/2-MagicMethods.py#L7)
+          1. [Test](https://github.com/SSaquif/python-notebook/blob/master/8-classes/2-MagicMethods.py#L14)
 
 9. [Modules](#)
 
