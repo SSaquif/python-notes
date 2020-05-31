@@ -4,11 +4,11 @@
 
 This are all valid for Python 3. Should mostly be OK for any future versions.
 
-> NTS for Future: On the Github Links for the contents, some require blob to switched to tree. When dealing with lines for files inside a folder.
+> NTS for Future: When Linking code on Github, some links require /blob/ to be switched to /tree/. Solves Issue arising with when dealing with lines for files inside a folder.
 
 ## Contents
 
-0. [Python Environment Setup](https://github.com/SSaquif/python-notebook/blob/master/0-setup-instructions.md)
+0. [Python Environment Setup, Pip etc](https://github.com/SSaquif/python-notebook/blob/master/0-setup-instructions.md)
 
 1. [Basics](https://github.com/SSaquif/python-notebook/blob/master/1-basics.py)
 
@@ -182,9 +182,24 @@ This are all valid for Python 3. Should mostly be OK for any future versions.
 
       1. [Rasing exceptions : Inefficient Way](https://github.com/SSaquif/python-notebook/tree/master/7-exceptions/2-raising-exceptions.py#L4)
       2. [Rasing Exceptions Efficiently == Don't Raise Them When Possible](https://github.com/SSaquif/python-notebook/tree/master/7-exceptions/2-raising-exceptions.py#L18)
-      3. [Testing Efficiency using timeit](https://github.com/SSaquif/python-notebook/tree/master/7-exceptions/2-raising-exceptions.py#L60)
+      3. [Testing Efficiency using timeit()](https://github.com/SSaquif/python-notebook/tree/master/7-exceptions/2-raising-exceptions.py#L60)
 
 8. [Classes](#)
+
+   1. [Class Level Attribute]()
+   2. [Constructors: using magic method init]()
+   3. [self Parameter: refers to current instance (all class methods have it)]()
+   4. [Accessing Instance Attributes and Methods]()
+   5. [Accessing Class Level Attribute]()
+   6. [Altering Instance Attributes: Objects are Dynamic in python like JS]()
+   7. [Altering Class Attributes: Changing for ALL vs ONE Instance]()
+   8. [Class Methods: @classmethod]()
+      1. [The first param (cls): used to call the constructor]()
+      2. [Class Methods Test]()
+   9. [Magic Methods: Rewriting, Implements New behaviour]()
+      1. [init : As seen previously in constructor section]()
+      2. [str: first example of rewriting old behavior with new one. Overriding]()
+         1. [Test]()
 
 9. [Modules](#)
 
@@ -204,3 +219,4 @@ This are all valid for Python 3. Should mostly be OK for any future versions.
 4. [Python 3 Type Codes : Useful for Arrays etc](https://docs.python.org/3/library/array.html)
 5. [Generator in Programming, Also See Generators Section](<https://en.wikipedia.org/wiki/Generator_(computer_programming)>)
 6. [Python 3 Built-In Exceptions](https://docs.python.org/3/library/exceptions.html)
+7. [Python 3 Magic Methods: Good Docs](https://rszalski.github.io/magicmethods/)
