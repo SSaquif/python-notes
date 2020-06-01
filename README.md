@@ -1,8 +1,10 @@
-# Python Notes
+# Python Notes @ssaquif
 
 ## Intro & HouseKeeping
 
-This are all valid for Python 3. Should mostly be OK for any future versions.
+These are my notes on Python. Clicking on a Content Link should take you to an example behavior code in the repo.
+
+These are all valid for Python 3. Should mostly be OK for any future versions.
 
 > NTS for Future: When Linking code on Github, some links require /blob/ to be switched to /tree/. Solves Issue arising when referencing lines from files inside a folder. Links to Folders and Files Seem to be fine.
 
@@ -230,18 +232,18 @@ This are all valid for Python 3. Should mostly be OK for any future versions.
 
    7. [Altering Class Attributes: Changing for ALL vs ONE Instance](https://github.com/SSaquif/python-notebook/tree/master/8-classes/1-Point.py#L50)
 
-   8. [Class Methods: @classmethod](https://github.com/SSaquif/python-notebook/tree/master/8-classes/1-Point.py#L14)
+   8. [Class Methods: using decorator @classmethod](https://github.com/SSaquif/python-notebook/tree/master/8-classes/1-Point.py#L14)
 
       1. [The first param (cls): used to call the constructor](https://github.com/SSaquif/python-notebook/tree/master/8-classes/1-Point.py#L16)
       2. [Class Methods Test](https://github.com/SSaquif/python-notebook/tree/master/8-classes/1-Point.py#L59)
 
    9. [isinstance() Method](https://github.com/SSaquif/python-notebook/tree/master/8-classes/1-Point.py#L65)
 
-9. ### [Classes: Part 2, Python Magic Methods](https://github.com/SSaquif/python-notebook/tree/master/8-classes)
+9. ### [Classes: Part 2, Python Magic Methods & Python property() Function](https://github.com/SSaquif/python-notebook/tree/master/8-classes)
 
-   1. [Magic Methods: Redefining Them == Implements New behavior](https://github.com/SSaquif/python-notebook/tree/master/8-classes/2-MagicMethods.py)
+   1. [Magic Methods I: Redefining Them == Implements New behavior](https://github.com/SSaquif/python-notebook/tree/master/8-classes/2-MagicMethods.py)
 
-      1. [init : As seen previously in constructor section](https://github.com/SSaquif/python-notebook/tree/master/8-classes/2-MagicMethods.py#L2)
+      1. [init: As seen previously in constructor section](https://github.com/SSaquif/python-notebook/tree/master/8-classes/2-MagicMethods.py#L2)
       2. [str: first example of rewriting old behavior with new one. Overriding](https://github.com/SSaquif/python-notebook/tree/master/8-classes/2-MagicMethods.py#L7)
          1. [Test str](https://github.com/SSaquif/python-notebook/tree/master/8-classes/2-MagicMethods.py#L31)
       3. [eq, gt: Redefining Equality Operators](https://github.com/SSaquif/python-notebook/tree/master/8-classes/2-MagicMethods.py#L12)
@@ -251,7 +253,7 @@ This are all valid for Python 3. Should mostly be OK for any future versions.
          1. [Test add](https://github.com/SSaquif/python-notebook/tree/master/8-classes/2-MagicMethods.py#L44)
       5. **Note**: More Magic Methods in Section Below
 
-   2. [Using Magic Methods to Create the Tag Data Structure(DS): A Custom Container/DS Class](https://github.com/SSaquif/python-notebook/tree/master/8-classes/3-Tags.py#L1)
+   2. [Magic Methods II: Creating Our Own Iterable Data Structure(DS): A Custom Container/DS Class](https://github.com/SSaquif/python-notebook/tree/master/8-classes/3-Tags.py#L1)
 
       1. [getItem : Defining What Our DS returns (when using bracket notation)](https://github.com/SSaquif/python-notebook/tree/master/8-classes/3-Tags.py#L14)
          1. [Test getItem](https://github.com/SSaquif/python-notebook/tree/master/8-classes/3-Tags.py#L39)
@@ -263,7 +265,33 @@ This are all valid for Python 3. Should mostly be OK for any future versions.
          1. [Test iter](https://github.com/SSaquif/python-notebook/tree/master/8-classes/3-Tags.py#L50)
 
    3. [Private Members: prefix Attr or Method with \_\_](https://github.com/SSaquif/python-notebook/tree/master/8-classes/3-Tags.py#L9)
-      1. [Private is not really Private in python: bypassing using \_\_dict\_\_](https://github.com/SSaquif/python-notebook/tree/master/8-classes/3-Tags.py#L54)
+
+      1. [Private is not really Private in python: bypassing using MM \_\_dict\_\_](https://github.com/SSaquif/python-notebook/tree/master/8-classes/3-Tags.py#L54)
+
+   4. [Setting Properties: A bit Different in Python]()
+
+      1. [Using property(fget,fset,fdel,doc) function ]()
+
+         1. [Example 1: Person class]()
+
+            1. [fget: Your getter function]()
+            2. [fset: Your setter function]()
+            3. [fdel: Your deleter.. function]()
+            4. [Tests: getting, setting and deleting this property]()
+
+      2. [Using decorator @property]()
+
+         1. [Example 2 Product class: using decorator @property ]()
+
+            1. [Changes in constructor]()
+            2. [@property: the getter]()
+            3. [@propName.setter: the setter]()
+
+         2. [Example 3: Person class refactored]()
+
+            1. [getter]()
+            2. [setter]()
+            3. [deleter]()
 
 10. ### [Modules](#)
 
@@ -284,3 +312,4 @@ This are all valid for Python 3. Should mostly be OK for any future versions.
 5. [Generator in Programming, Also See Generators Section](<https://en.wikipedia.org/wiki/Generator_(computer_programming)>)
 6. [Python 3 Built-In Exceptions](https://docs.python.org/3/library/exceptions.html)
 7. [Python 3 Magic Methods: Good Docs](https://rszalski.github.io/magicmethods/)
+8. [Python Classes: property() function](https://www.programiz.com/python-programming/methods/built-in/property)
