@@ -268,40 +268,42 @@ These are all valid for Python 3. Should mostly be OK for any future versions.
 
       1. [Private is not really Private in python: bypassing using MM \_\_dict\_\_](https://github.com/SSaquif/python-notebook/tree/master/8-classes/3-Tags.py#L54)
 
-   4. [Setting Properties: A bit Different in Python]()
+   4. [Setting Properties: A bit Different in Python](https://github.com/SSaquif/python-notebook/tree/master/8-classes/4-Person.py#L20)
 
-      1. [Using property(fget,fset,fdel,doc) function ]()
+      1. [Using property(fget,fset,fdel,doc) function ](https://github.com/SSaquif/python-notebook/tree/master/8-classes/4-Person.py#L20)
 
-         1. [Example 1: Person class]()
+         1. [Example 1: Person class](https://github.com/SSaquif/python-notebook/tree/master/8-classes/4-Person.py#L1)
 
-            1. [fget: Your getter function]()
-            2. [fset: Your setter function]()
-            3. [fdel: Your deleter.. function]()
-            4. [Tests: getting, setting and deleting this property]()
+            1. [fget: Your getter function](https://github.com/SSaquif/python-notebook/tree/master/8-classes/4-Person.py#L5)
+            2. [fset: Your setter function](https://github.com/SSaquif/python-notebook/tree/master/8-classes/4-Person.py#L10)
+            3. [fdel: Your deleter function](https://github.com/SSaquif/python-notebook/tree/master/8-classes/4-Person.py#L15)
+            4. [Tests: getting, setting and deleting this property](https://github.com/SSaquif/python-notebook/tree/master/8-classes/4-Person.py#L24)
 
-      2. [Using decorator @property]()
+      2. [Using decorator @property](https://github.com/SSaquif/python-notebook/tree/master/8-classes/4.1-PersonRefactored.py#L6)
 
-         1. [Example 2 Product class: using decorator @property ]()
+         1. [Example 2 Product class: using decorator @property ](https://github.com/SSaquif/python-notebook/tree/master/8-classes/5-Product.py#L1)
 
-            1. [Changes in constructor]()
-            2. [@property: the getter]()
-            3. [@propName.setter: the setter]()
+            1. [Changes in constructor](https://github.com/SSaquif/python-notebook/tree/master/8-classes/5-Product.py#L3)
+            2. [@property: the getter](https://github.com/SSaquif/python-notebook/tree/master/8-classes/5-Product.py#L7)
+            3. [@propName.setter: the setter](https://github.com/SSaquif/python-notebook/tree/master/8-classes/5-Product.py#L13)
 
-         2. [Example 3: Person class refactored]()
+         2. [Example 3: Person class refactored](https://github.com/SSaquif/python-notebook/tree/master/8-classes/4.1-PersonRefactored.py#L1)
 
-            1. [getter]()
-            2. [setter]()
-            3. [deleter]()
+            1. [getter](https://github.com/SSaquif/python-notebook/tree/master/8-classes/4.1-PersonRefactored.py#L6)
+            2. [setter](https://github.com/SSaquif/python-notebook/tree/master/8-classes/4.1-PersonRefactored.py#L11)
+            3. [deleter](https://github.com/SSaquif/python-notebook/tree/master/8-classes/4.1-PersonRefactored.py#L16)
 
-10. ### [Modules](#)
+10. ### Classes Part 3: OOP Pillars
 
-11. ### Python Standard Library: TBA
+11. ### [Modules](#)
 
-12. ### Python Package Index: TBA
+12. ### Python Standard Library: TBA
 
-13. ### Popular Python Libraries: TBA
+13. ### Python Package Index: TBA
 
-14. ### [Machine Learning with Python]()
+14. ### Popular Python Libraries: TBA
+
+15. ### [Machine Learning with Python]()
 
 ## References
 
