@@ -35,7 +35,7 @@ class Xenomorph(Animal):
         print(f'{self.name} is Hunting')
 
 
-# Multi Level Inheritance
+# Multi Level Inheritance: keep as few levels as possible
 class Whale(Mammal):
     # Since Mammal has No Constructor,
     # Its goinging to use Animal's constructor
