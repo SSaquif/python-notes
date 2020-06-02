@@ -254,7 +254,6 @@ These are all valid for Python 3. Should mostly be OK for any future versions.
           1. [Test gt](https://github.com/SSaquif/python-notebook/tree/master/8-classes/2-MagicMethods.py#L40)
        4. [add: Example of Redefining Arithmetic Operators](https://github.com/SSaquif/python-notebook/tree/master/8-classes/2-MagicMethods.py#L)
           1. [Test add](https://github.com/SSaquif/python-notebook/tree/master/8-classes/2-MagicMethods.py#L44)
-       5. **Note**: More Magic Methods in Section Below
 
     2. [Magic Methods II: Creating Our Own Iterable Data Structure(DS): A Custom Container/DS Class](https://github.com/SSaquif/python-notebook/tree/master/8-classes/3-Tags.py#L1)
 
@@ -318,52 +317,54 @@ These are all valid for Python 3. Should mostly be OK for any future versions.
        >    1. Ex: Implementing same method to do different things in child classes
        >    2. OverRiding and OverLoading
 
-    2. [Inheritance: Basic Example]()
+    2. [Inheritance: Basic Example](https://github.com/SSaquif/Python-Notebook/blob/master/8-classes/6-Inheritance.py#L1)
 
-       1. [Syntax in Python]()
-       2. [Inheritance in Action]()
+       1. [Syntax in Python](https://github.com/SSaquif/Python-Notebook/blob/master/8-classes/6-Inheritance.py#L11)
+       2. [Inheritance in Action](https://github.com/SSaquif/Python-Notebook/blob/master/8-classes/6-Inheritance.py#L56)
 
-    3. [Object Class]()
+    3. [Object Class](https://github.com/SSaquif/Python-Notebook/blob/master/8-classes/6-Inheritance.py#L69)
 
-    4. [isinstance() and issubclass() methods]()
+       1. [Usage of object keyword](https://github.com/SSaquif/Python-Notebook/blob/master/8-classes/6-Inheritance.py#L72)
+
+    4. [isinstance() and issubclass() methods](https://github.com/SSaquif/Python-Notebook/blob/master/8-classes/6-Inheritance.py#L72)
 
     5. [OverRiding]()
 
-       1. [Overriding a parent method]()
-       2. [Overriding constructor]()
-       3. [**super():** run both parent & child class constructor, instead of overriding]()
-       4. [Changing the order in which Parent and Child constructors are called]()
+       1. [Overriding a parent method](https://github.com/SSaquif/Python-Notebook/blob/master/8-classes/6-Inheritance.py#L51)
+       2. [Overriding constructor](https://github.com/SSaquif/Python-Notebook/blob/master/8-classes/6-Inheritance.py#L28)
+       3. [**super():** run both parent & child class constructor, instead of overriding](https://github.com/SSaquif/Python-Notebook/blob/master/8-classes/6-Inheritance.py#L43)
+       4. [Changing the order in which Parent and Child constructors are called](https://github.com/SSaquif/Python-Notebook/blob/master/8-classes/6-Inheritance.py#L46)
 
-    6. [Multi-level Inheritance]()
+    6. [Multi-level Inheritance](https://github.com/SSaquif/Python-Notebook/blob/master/8-classes/6-Inheritance.py#L38)
 
-    7. [Multiple Inheritance (Try and Avoid)]()
+    7. [Multiple Inheritance (Try and Avoid)](https://github.com/SSaquif/Python-Notebook/blob/master/8-classes/7-Multiple-Inheritance.py#L17)
 
-    8. [Good Inheritance Example]()
+    8. [Good Inheritance Example](https://github.com/SSaquif/Python-Notebook/blob/master/8-classes/8-Stream.py)
 
-       1. [Custom Errors: Inheriting from base Exception Class]()
+       1. [Custom Errors: Inheriting from base Exception Class](https://github.com/SSaquif/Python-Notebook/blob/master/8-classes/8-Stream.py#L1)
 
-    9. [Abstract Base Classes: Refactoring Last Example]()
+    9. [Abstract Base Classes: Refactoring Last Example](https://github.com/SSaquif/Python-Notebook/blob/master/8-classes/9.StreamRefactored.py#L1)
 
-       1. [What to Import?]()
-       2. [Decorator @abstractmethod]()
-       3. [Can NOT Instantiate Abstract Class Objects]()
+       1. [What to Import?](https://github.com/SSaquif/Python-Notebook/blob/master/8-classes/9.StreamRefactored.py#L3)
+       2. [Decorator @abstractmethod](https://github.com/SSaquif/Python-Notebook/blob/master/8-classes/9.StreamRefactored.py#L25)
+       3. [Can NOT Instantiate Abstract Class Objects](https://github.com/SSaquif/Python-Notebook/blob/master/8-classes/9.StreamRefactored.py#L41)
 
-    10. [Polymorphism: (Examples also seen in previous Animal class sections)]()
+    10. [Polymorphism:](https://github.com/SSaquif/Python-Notebook/blob/master/8-classes/10-Polymorphism.py#L1) Examples also seen in previous Animal class sections: ie, move() function
 
-        1. [Way 1 : Follow This]()
-        2. [Way 2 : Duck Typing]()
+        1. [Way 1 : Follow This](https://github.com/SSaquif/Python-Notebook/blob/master/8-classes/10-Polymorphism.py#L5)
+        2. [Way 2 : Duck Typing](https://github.com/SSaquif/Python-Notebook/blob/master/8-classes/11-DuckTyping.py#L4)
            > **Notes**: So if it walks and quacks like a duck, it is a duck.
            > **Python is a dynamically typed language. It does not check the type of the object.**
            > However, good practice to follow way 1.
 
-    11. [Extending Built-In Types]()
+    11. [Extending Built-In Types](https://github.com/SSaquif/Python-Notebook/blob/master/8-classes/12-ExtendingBuiltInTypes.py)
 
-        1. [Using super() in non-constructor methods]()
+        1. [Using super() in non-constructor methods](https://github.com/SSaquif/Python-Notebook/blob/master/8-classes/12-ExtendingBuiltInTypes.py#L17)
 
-    12. [Data Classes: contains only data no methods, (maybe some magic method overriding)]()
+    12. [Data Classes: contains only data no methods, (maybe some magic method overriding)](https://github.com/SSaquif/Python-Notebook/blob/master/8-classes/13-DataClasses.py)
 
-        1. [Alternative: Use Named Tuples Instead]()
-           > **Note:** Named Tuples are immutable. They inherit from tuple i beleive
+        1. [Alternative: Use Named Tuples Instead](https://github.com/SSaquif/Python-Notebook/blob/master/6-python-data-structures/4.1-named-tuple.py#L1)
+           > **Note:** Named Tuples are immutable. They inherit from tuple (I believe, tuples are immutable too. Double Check)
 
 11. ### [Modules](#)
 
