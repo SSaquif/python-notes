@@ -144,6 +144,7 @@ These are all valid for Python 3. Should mostly be OK for any future versions.
        8. [Destructuring/Unpacking Tuple: Just like Lists](https://github.com/SSaquif/python-notebook/tree/master/6-python-data-structures/4-tuple.py#L31)
        9. [Check if Item exists in Tuple](https://github.com/SSaquif/python-notebook/tree/master/6-python-data-structures/4-tuple.py#L37)
        10. [Trying to modify Tuple === Error](https://github.com/SSaquif/python-notebook/tree/master/6-python-data-structures/4-tuple.py#L41)
+       11. Named Tuples (See Data Classes Section)
 
     5. [Arrays](https://github.com/SSaquif/python-notebook/blob/master/6-python-data-structures/5-arrays.py)
 
@@ -239,6 +240,8 @@ These are all valid for Python 3. Should mostly be OK for any future versions.
 
     9. [isinstance() Method](https://github.com/SSaquif/python-notebook/tree/master/8-classes/1-Point.py#L65)
 
+    10. [id() Method: returns the address of the Object](https://github.com/SSaquif/python-notebook/tree/master/8-classes/1-Point.py#L71)
+
 9.  ### [Classes Part 2: Python Magic Methods & Python property() Function](https://github.com/SSaquif/python-notebook/tree/master/8-classes)
 
     1. [Magic Methods I: Redefining Them == Implements New behavior](https://github.com/SSaquif/python-notebook/tree/master/8-classes/2-MagicMethods.py)
@@ -293,7 +296,7 @@ These are all valid for Python 3. Should mostly be OK for any future versions.
              2. [setter](https://github.com/SSaquif/python-notebook/tree/master/8-classes/4.1-PersonRefactored.py#L11)
              3. [deleter](https://github.com/SSaquif/python-notebook/tree/master/8-classes/4.1-PersonRefactored.py#L16)
 
-10. ### [Classes Part 3: OOP Pillars]()
+10. ### [Classes Part 3: 4 OOP Pillars]()
 
     1. > **Notes**: Concepts Throwback
        >
@@ -304,10 +307,10 @@ These are all valid for Python 3. Should mostly be OK for any future versions.
        >
        > 2. **Inheritance**: Self Explanatory (Helps Reduce Code Duplication by Reusing code)
        >
-       > 3. **Abstraction**: Hiding Implementation Detail (Revisit this definition maybe)
+       > 3. **Abstraction**: Hiding Implementation Detail (in Parent)
        >
-       >    1. > **Quick Note**: In Java we do this By reducing Coupling
-       >    2. > **Coupling**: Level of Dependency between classes
+       >    1. > **Quick Note**: In Java we also do this By reducing Coupling
+       >    2. > **Coupling**: Level of Dependency between classes, (ex: by creating Abstract classes)
        >    3. Also done via Polymorphism: provide the implementation detail in child classes instead
        >
        > 4. **Polymorphism**: Having Many Forms
@@ -315,29 +318,70 @@ These are all valid for Python 3. Should mostly be OK for any future versions.
        >    1. Ex: Implementing same method to do different things in child classes
        >    2. OverRiding and OverLoading
 
-    2. Inheritance: Basic Example
+    2. [Inheritance: Basic Example]()
 
-       1. Syntax in Python
-       2. Inheritance in Action
+       1. [Syntax in Python]()
+       2. [Inheritance in Action]()
 
-    3. Object Class
+    3. [Object Class]()
 
-    4. isinstance() and issubclass() methods
+    4. [isinstance() and issubclass() methods]()
 
-    5. OverRiding
+    5. [OverRiding]()
 
-       1. Overriding a parent method
-       2. Overriding constructor
-       3. **super():** run both parent & child class constructor, instead of overriding
-       4. Changing the order in which Parent and Child constructors are called
+       1. [Overriding a parent method]()
+       2. [Overriding constructor]()
+       3. [**super():** run both parent & child class constructor, instead of overriding]()
+       4. [Changing the order in which Parent and Child constructors are called]()
 
-    6. Multi-level Inheritance
+    6. [Multi-level Inheritance]()
 
-    7. Multiple Inheritance
+    7. [Multiple Inheritance (Try and Avoid)]()
+
+    8. [Good Inheritance Example]()
+
+       1. [Custom Errors: Inheriting from base Exception Class]()
+
+    9. [Abstract Base Classes: Refactoring Last Example]()
+
+       1. [What to Import?]()
+       2. [Decorator @abstractmethod]()
+       3. [Can NOT Instantiate Abstract Class Objects]()
+
+    10. [Polymorphism: (Examples also seen in previous Animal class sections)]()
+
+        1. [Way 1 : Follow This]()
+        2. [Way 2 : Duck Typing]()
+           > **Notes**: So if it walks and quacks like a duck, it is a duck.
+           > **Python is a dynamically typed language. It does not check the type of the object.**
+           > However, good practice to follow way 1.
+
+    11. [Extending Built-In Types]()
+
+        1. [Using super() in non-constructor methods]()
+
+    12. [Data Classes: contains only data no methods, (maybe some magic method overriding)]()
+
+        1. [Alternative: Use Named Tuples Instead]()
+           > **Note:** Named Tuples are immutable. They inherit from tuple i beleive
 
 11. ### [Modules](#)
 
 12. ### Python Standard Library: TBA
+
+    1. Paths
+    2. Directories
+    3. Files
+       1. CSV Files
+       2. JSON Files
+       3. Zip Files
+       4. PDFs
+       5. Excel SpreadSheets
+    4. SQLite Database
+    5. Timestamps
+    6. DateTimes
+    7. Time Deltas
+    8. Generating Random Values
 
 13. ### Python Package Index: TBA
 

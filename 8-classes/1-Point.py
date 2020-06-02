@@ -66,3 +66,8 @@ print('\n')
 print(type(pointA))  # <class '__main__.Point'>
 print(isinstance(pointA, Point))  # True
 print(isinstance(pointA, int))  # False
+print('\n')
+
+# id() function => returns memory address of an Object
+print(id(pointA))
+print(id(pointB))
