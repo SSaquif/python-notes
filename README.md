@@ -402,9 +402,10 @@ These are all valid for Python 3. Should mostly be OK for any future versions.
     3.  > Tools
         >
         > 1. Jupyter (an environment best suited for ML, better than any IDE)
-        > 2. Anaconda: A python data science platform, can install jupyter through it
-        >    1. Will automatically install jupyter and the above libraries and more
-        >    2. Once installed,
+        > 2. **Anaconda:** A python data science platform, can install jupyter through it
+        >    1. Install Anaconda from there website. I got the individual edition, Python 3.7
+        >    2. Anaconda will automatically install jupyter and the above libraries and more data science related stuff
+        >    3. Once installed,
         >       1. Move to project directory (or stay in home u can change directories on the dash board) and
         >       2. run the following on the terminal (have to restart terminal after installation or run /.bashrc file again)
         >       3. > ```bash
