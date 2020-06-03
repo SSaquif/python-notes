@@ -317,58 +317,58 @@ These are all valid for Python 3. Should mostly be OK for any future versions.
        >    1. Ex: Implementing same method to do different things in child classes
        >    2. OverRiding and OverLoading
 
-    2. [Inheritance: Basic Example](https://github.com/SSaquif/Python-Notebook/blob/master/8-classes/6-Inheritance.py#L1)
+    2. [Inheritance: Basic Example](https://github.com/SSaquif/Python-Notebook/tree/master/8-classes/6-Inheritance.py#L1)
 
-       1. [Syntax in Python](https://github.com/SSaquif/Python-Notebook/blob/master/8-classes/6-Inheritance.py#L11)
-       2. [Inheritance in Action](https://github.com/SSaquif/Python-Notebook/blob/master/8-classes/6-Inheritance.py#L56)
+       1. [Syntax in Python](https://github.com/SSaquif/Python-Notebook/tree/master/8-classes/6-Inheritance.py#L11)
+       2. [Inheritance in Action](https://github.com/SSaquif/Python-Notebook/tree/master/8-classes/6-Inheritance.py#L56)
 
-    3. [Object Class](https://github.com/SSaquif/Python-Notebook/blob/master/8-classes/6-Inheritance.py#L69)
+    3. [Object Class](https://github.com/SSaquif/Python-Notebook/tree/master/8-classes/6-Inheritance.py#L69)
 
-       1. [Usage of object keyword](https://github.com/SSaquif/Python-Notebook/blob/master/8-classes/6-Inheritance.py#L72)
+       1. [Usage of object keyword](https://github.com/SSaquif/Python-Notebook/tree/master/8-classes/6-Inheritance.py#L72)
 
-    4. [isinstance() and issubclass() methods](https://github.com/SSaquif/Python-Notebook/blob/master/8-classes/6-Inheritance.py#L72)
+    4. [isinstance() and issubclass() methods](https://github.com/SSaquif/Python-Notebook/tree/master/8-classes/6-Inheritance.py#L72)
 
     5. [OverRiding]()
 
-       1. [Overriding a parent method](https://github.com/SSaquif/Python-Notebook/blob/master/8-classes/6-Inheritance.py#L51)
-       2. [Overriding constructor](https://github.com/SSaquif/Python-Notebook/blob/master/8-classes/6-Inheritance.py#L28)
-       3. [**super():** run both parent & child class constructor, instead of overriding](https://github.com/SSaquif/Python-Notebook/blob/master/8-classes/6-Inheritance.py#L43)
-       4. [Changing the order in which Parent and Child constructors are called](https://github.com/SSaquif/Python-Notebook/blob/master/8-classes/6-Inheritance.py#L46)
+       1. [Overriding a parent method](https://github.com/SSaquif/Python-Notebook/tree/master/8-classes/6-Inheritance.py#L51)
+       2. [Overriding constructor](https://github.com/SSaquif/Python-Notebook/tree/master/8-classes/6-Inheritance.py#L28)
+       3. [**super():** run both parent & child class constructor, instead of overriding](https://github.com/SSaquif/Python-Notebook/tree/master/8-classes/6-Inheritance.py#L43)
+       4. [Changing the order in which Parent and Child constructors are called](https://github.com/SSaquif/Python-Notebook/tree/master/8-classes/6-Inheritance.py#L46)
 
-    6. [Multi-level Inheritance](https://github.com/SSaquif/Python-Notebook/blob/master/8-classes/6-Inheritance.py#L38)
+    6. [Multi-level Inheritance](https://github.com/SSaquif/Python-Notebook/tree/master/8-classes/6-Inheritance.py#L38)
 
-    7. [Multiple Inheritance (Try and Avoid)](https://github.com/SSaquif/Python-Notebook/blob/master/8-classes/7-Multiple-Inheritance.py#L17)
+    7. [Multiple Inheritance (Try and Avoid)](https://github.com/SSaquif/Python-Notebook/tree/master/8-classes/7-Multiple-Inheritance.py#L17)
 
-    8. [Good Inheritance Example](https://github.com/SSaquif/Python-Notebook/blob/master/8-classes/8-Stream.py)
+    8. [Good Inheritance Example](https://github.com/SSaquif/Python-Notebook/tree/master/8-classes/8-Stream.py)
 
-       1. [Custom Errors: Inheriting from base Exception Class](https://github.com/SSaquif/Python-Notebook/blob/master/8-classes/8-Stream.py#L1)
+       1. [Custom Errors: Inheriting from base Exception Class](https://github.com/SSaquif/Python-Notebook/tree/master/8-classes/8-Stream.py#L1)
 
-    9. [Abstract Base Classes: Refactoring Last Example](https://github.com/SSaquif/Python-Notebook/blob/master/8-classes/9.StreamRefactored.py#L1)
+    9. [Abstract Base Classes: Refactoring Last Example](https://github.com/SSaquif/Python-Notebook/tree/master/8-classes/9.StreamRefactored.py#L1)
 
-       1. [What to Import?](https://github.com/SSaquif/Python-Notebook/blob/master/8-classes/9.StreamRefactored.py#L3)
-       2. [Decorator @abstractmethod](https://github.com/SSaquif/Python-Notebook/blob/master/8-classes/9.StreamRefactored.py#L25)
-       3. [Can NOT Instantiate Abstract Class Objects](https://github.com/SSaquif/Python-Notebook/blob/master/8-classes/9.StreamRefactored.py#L41)
+       1. [What to Import?](https://github.com/SSaquif/Python-Notebook/tree/master/8-classes/9.StreamRefactored.py#L3)
+       2. [Decorator @abstractmethod](https://github.com/SSaquif/Python-Notebook/tree/master/8-classes/9.StreamRefactored.py#L25)
+       3. [Can NOT Instantiate Abstract Class Objects](https://github.com/SSaquif/Python-Notebook/tree/master/8-classes/9.StreamRefactored.py#L41)
 
-    10. [Polymorphism:](https://github.com/SSaquif/Python-Notebook/blob/master/8-classes/10-Polymorphism.py#L1) Examples also seen in previous Animal class sections: ie, move() function
+    10. [Polymorphism:](https://github.com/SSaquif/Python-Notebook/tree/master/8-classes/10-Polymorphism.py#L1) Examples also seen in previous Animal class sections: ie, move() function
 
-        1. [Way 1 : Follow This](https://github.com/SSaquif/Python-Notebook/blob/master/8-classes/10-Polymorphism.py#L5)
-        2. [Way 2 : Duck Typing](https://github.com/SSaquif/Python-Notebook/blob/master/8-classes/11-DuckTyping.py#L4)
+        1. [Way 1 : Follow This](https://github.com/SSaquif/Python-Notebook/tree/master/8-classes/10-Polymorphism.py#L5)
+        2. [Way 2 : Duck Typing](https://github.com/SSaquif/Python-Notebook/tree/master/8-classes/11-DuckTyping.py#L4)
            > **Notes**: So if it walks and quacks like a duck, it is a duck.
            > **Python is a dynamically typed language. It does not check the type of the object.**
            > However, good practice to follow way 1.
 
-    11. [Extending Built-In Types](https://github.com/SSaquif/Python-Notebook/blob/master/8-classes/12-ExtendingBuiltInTypes.py)
+    11. [Extending Built-In Types](https://github.com/SSaquif/Python-Notebook/tree/master/8-classes/12-ExtendingBuiltInTypes.py)
 
-        1. [Using super() in non-constructor methods](https://github.com/SSaquif/Python-Notebook/blob/master/8-classes/12-ExtendingBuiltInTypes.py#L17)
+        1. [Using super() in non-constructor methods](https://github.com/SSaquif/Python-Notebook/tree/master/8-classes/12-ExtendingBuiltInTypes.py#L17)
 
-    12. [Data Classes: contains only data no methods, (maybe some magic method overriding)](https://github.com/SSaquif/Python-Notebook/blob/master/8-classes/13-DataClasses.py)
+    12. [Data Classes: contains only data no methods, (maybe some magic method overriding)](https://github.com/SSaquif/Python-Notebook/tree/master/8-classes/13-DataClasses.py)
 
-        1. [Alternative: Use Named Tuples Instead](https://github.com/SSaquif/Python-Notebook/blob/master/6-python-data-structures/4.1-named-tuple.py#L1)
+        1. [Alternative: Use Named Tuples Instead](https://github.com/SSaquif/Python-Notebook/tree/master/6-python-data-structures/4.1-named-tuple.py#L1)
            > **Note:** Named Tuples are immutable. They inherit from tuple (I believe, tuples are immutable too. Double Check)
 
 11. ### [Modules](#)
 
-12. ### Python Standard Library: TBA
+12. ### Python Standard Library: WIP
 
     1. Paths
     2. Directories
@@ -389,6 +389,30 @@ These are all valid for Python 3. Should mostly be OK for any future versions.
 14. ### Popular Python Libraries: TBA
 
 15. ### [Machine Learning with Python]()
+
+    1.  > Some theory:
+
+    2.  > Libraries
+        >
+        > 1. Numpy
+        > 2. Pandas
+        > 3. MatPlotLib
+        > 4. Scikit-Learn
+
+    3.  > Tools
+        >
+        > 1. Jupyter (an environment best suited for ML, better than any IDE)
+        > 2. Anaconda: A python data science platform, can install jupyter through it
+        >    1. Will automatically install jupyter and the above libraries and more
+        >    2. Once installed,
+        >       1. Move to project directory (or stay in home u can change directories on the dash board) and
+        >       2. run the following on the terminal (have to restart terminal after installation or run /.bashrc file again)
+        >       3. > ```bash
+        >          > jupyter notebook
+        >          > ```
+        >       4. This will start the notebook server on your machine &
+        >       5. Open up the jupyter dashboard at _localhost:/8888/tree_
+        >       6. From here create a new Python 3 notebook
 
 ## References
 
