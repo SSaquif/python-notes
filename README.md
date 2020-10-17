@@ -114,7 +114,7 @@ These are all valid for Python 3. Should mostly be OK for any future versions.
        16. [Counting the Number of Occurrences of an Item](https://github.com/SSaquif/python-notebook/tree/master/6-python-data-structures/1-list.py#L81)
        17. [Sorting Lists](https://github.com/SSaquif/python-notebook/tree/master/6-python-data-structures/1-list.py#L85)
        18. [Sorting Lists: Complex Example](https://github.com/SSaquif/python-notebook/tree/master/6-python-data-structures/1-list.py#L98)
-       19. [Lambda Functions: Kinda like Callbacks](https://github.com/SSaquif/python-notebook/tree/master/6-python-data-structures/1-list.py#L108)
+       19. [Lambda Functions: One Line Functions, Good for Callbacks](https://github.com/SSaquif/python-notebook/tree/master/6-python-data-structures/1-list.py#L108)
        20. [Map Function: Another Lambda Function Example](https://github.com/SSaquif/python-notebook/tree/master/6-python-data-structures/1-list.py#L114)
        21. [Filter Function: Another Lambda Function Example](https://github.com/SSaquif/python-notebook/tree/master/6-python-data-structures/1-list.py#L137)
        22. [List Comprehension: Prettier way to Map and Filter](https://github.com/SSaquif/python-notebook/tree/master/6-python-data-structures/1-list.py#L148): [See Comprehension Extended Below]
@@ -366,9 +366,17 @@ These are all valid for Python 3. Should mostly be OK for any future versions.
         1. [Alternative: Use Named Tuples Instead](https://github.com/SSaquif/Python-Notebook/tree/master/6-python-data-structures/4.1-named-tuple.py#L1)
            > **Note:** Named Tuples are immutable. They inherit from tuple (I believe, tuples are immutable too. Double Check)
 
-11. ### [Modules](#)
+11. ### [Functional Programming with Python]
 
-12. ### Python Standard Library: WIP
+    1. We can use the in-built libarary functools and use some HOF like reduce
+
+    2. See jupyter notebook for examples
+
+12. ### [Modules](#)
+
+    1. functools (For functional Programming: In-Built)
+
+13. ### Python Standard Library: WIP
 
     1. Paths
     2. Directories
@@ -384,11 +392,11 @@ These are all valid for Python 3. Should mostly be OK for any future versions.
     7. Time Deltas
     8. Generating Random Values
 
-13. ### Python Package Index: TBA
+14. ### Python Package Index: TBA
 
-14. ### Popular Python Libraries: TBA
+15. ### Popular Python Libraries: TBA
 
-15. ### [Machine Learning with Python]()
+16. ### [Machine Learning with Python]()
 
     1.  > Some theory:
 
