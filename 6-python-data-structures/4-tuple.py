@@ -1,4 +1,5 @@
 # Generally Tuples are Read Only
+# They are immutable, meaning once created, their elements cannot be changed.
 
 # Empty Tuple
 tuple1 = ()

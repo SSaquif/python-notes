@@ -1,3 +1,6 @@
+# Sets are Unordered Collections of Unique Items
+# They are Mutable, but do not allow duplicates
+
 numbers = [1, 2, 2, 2, 2, 2, 2, 1, 3]
 
 # Converting a List to a Set

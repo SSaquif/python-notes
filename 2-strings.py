@@ -14,6 +14,11 @@ print(small[0])  # h
 print(small[-1])  # o
 print(small[0:3])  # hel
 print(small[-1:-2])  # can't do this, empty space printed not error
+print(small[::2])  # heo, every second character
+print(small[::-1])  # olleh, reverse the string
+
+
+
 
 print(small.upper())
 print(small.find('lo'))  # returns index

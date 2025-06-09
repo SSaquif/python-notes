@@ -67,8 +67,9 @@ def jsonIsh(**user):
 jsonIsh(id="ssaquif", name='Sadnan Saquif', age='26')
 
 
-#Scope and Closure
+# Scope and Closure
 # Scope: Region of the Code where the Variable is Defined
+# Closure: A function that captures the surrounding state (variables) from its enclosing scope
 def scopeClosureEx(number):
     print('Scope Closure Example======>')
     print(f"Outer Number::{number}")

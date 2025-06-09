@@ -3,8 +3,8 @@
 pointA = {"x": 1, "y": 1}
 # Way 2: dict()
 pointB = dict(x=1, y=1)
-print('pointA', pointA)
-print('pointB', pointB)
+print('pointA', pointA) # Output: pointA {'x': 1, 'y': 1}
+print('pointB', pointB) # Output: pointB {'x': 1, 'y': 1}
 print('\n')
 
 # Adding a New Key
@@ -40,3 +40,7 @@ print('\n')
 # Way 2.2: Destructuring right away
 for key, value in pointB.items():
     print(key, value)
+
+# Getting Keys and Values
+print('Keys:', pointB.keys())  # Returns a view object of keys
+print('Values:', pointB.values())  # Returns a view object of values
